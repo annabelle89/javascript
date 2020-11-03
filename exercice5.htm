@@ -7,20 +7,26 @@
     <title>javaexercice5</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Javascript-->
-    <script type="text/Javascript" src="asset/js/main.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
 </head>
 
 <body>
     <div class="container">
         <form method="post" action="exercice5.htm">
-            <label for="firstnumber">Premier nombre</label>
+            <label for="firstnumber"></label>
             <input type="text" name="firstnumber" id="firstnumber" aria-placeholder="tapez quelque chose" placeholder="tapez quelque chose" class="form-control">
-            <label for="secondnumber">Second nombre</label>
+            <label for="secondnumber"></label>
             <input type="text" name="secondnumber" id="secondnumber" aria-placeholder="tapez quelque chose" placeholder="tapez quelque chose" class="form-control">
-            <button class="btn btn-primary mt-2" onclick="sendData()">Calculez</button>
+            <button class="btn btn-primary mt-2" onclick="divideThem()">Calculez</button>
         </form>
     </div>
+
+    <!--Javascript-->
+
+    <script type="text/Javascript" src="asset/js/main.js"></script>
 
     <!--JQuery first, then popper.js, then Bootstrap JS-->
 
