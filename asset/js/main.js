@@ -2,7 +2,7 @@ function divideThem() {
     var firstnumber = document.getElementById('firstnumber').value;
     var secondnumber = document.getElementById('secondnumber').value;
     var result = (firstnumber % secondnumber);
-    alert(résultat);
+    alert(result);
 }
 
 function displayAlert() {
